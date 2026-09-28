@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f5f5f5;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: white;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            padding: 6px;
+            border: 1px solid #bbb;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Registrasi</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Biodata</legend>
+
+            <table>
+                <tr>
+                    <td>Nama Mahasiswa</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Nama Anda"></td>
+                </tr>
+
+                <tr>
+                    <td>No Induk Mahasiswa (NIM)</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="123456789"></td>
+                </tr>
+
+                <tr>
+                    <td>Alamat Mahasiswa</td>
+                    <td>:</td>
+                    <td><textarea name="textarea_form" cols="30" rows="5" placeholder="Alamat Anda"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="5">06</option>
+                            <option value="5">07</option>
+                            <option value="5">08</option>
+                            <option value="5">09</option>
+                            <option value="5">10</option>
+                            <option value="5">11</option>
+                            <option value="5">12</option>
+                            <option value="5">13</option>
+                            <option value="5">14</option>
+                            <option value="5">15</option>
+                            <option value="5">16</option>
+                            <option value="5">17</option>
+                            <option value="5">18</option>
+                            <option value="5">19</option>
+                            <option value="5">20</option>
+                            <option value="5">21</option>
+                            <option value="5">22</option>
+                            <option value="5">23</option>
+                            <option value="5">24</option>
+                            <option value="5">25</option>
+                            <option value="5">26</option>
+                            <option value="5">27</option>
+                            <option value="5">28</option>
+                            <option value="5">29</option>
+                            <option value="5">30</option>
+                            <option value="5">31</option>
+                        </select>
+                        <select>
+                            <option value="">Januari</option>
+                            <option value="">Februari</option>
+                            <option value="">Maret</option>
+                            <option value="">April</option>
+                            <option value="">Mei</option>
+                            <option value="">Juni</option>
+                            <option value="">Juli</option>
+                            <option value="">Agustus</option>
+                            <option value="">September</option>
+                            <option value="">Oktober</option>
+                            <option value="">November</option>
+                            <option value="">Desmber</option>
+                        </select>
+                        <select>
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                            <option>1993</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                            <option>2004</option>
+                            <option>2005</option>
+                            <option>2006</option>
+                            <option>2007</option>
+                            <option>2008</option>
+                            <option>2009</option>
+                            <option>2010</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <label>
+                            <input type="radio" name="jenis_kelamin" value="pria">Pria <input type="radio" name="jenis_kelamin" value="wanita">Wanita
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Foto</td>
+                    <td>:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>URL Website</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="URL Website Anda" ></td>
+                </tr>
+                <tr>
+                    <td>Perguruan Tinggi</td>
+                    <td>:</td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Biodata</legend>
+
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Email Anda"></td>
+                </tr>
+
+                <tr>
+                    <td>Username</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Username Anda"></td>
+                </tr>
+
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Password Anda"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Ulangi Password</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Password Anda"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kemampuan Dasar</legend>
+
+            <p>
+                <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1"><label 
+                for="checkbox1">HTML</label>
+                <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label 
+                for="checkbox2">CSS</label>
+                <input type="checkbox" name="checkbox3" value="checkbox3" id="checkbox3"><label 
+                for="checkbox3">Javascript</label>
+                <input type="checkbox" name="checkbox4" value="checkbox4" id="checkbox4"><label 
+                for="checkbox4">PHP</label>
+                <input type="checkbox" name="checkbox5" value="checkbox5" id="checkbox5"><label 
+                for="checkbox5">MySQL</label>
+                <input type="checkbox" name="checkbox6" value="checkbox6" id="checkbox6"><label 
+                for="checkbox6">Laravel</label>
+                <input type="checkbox" name="checkbox7" value="checkbox7" id="checkbox7"><label 
+                for="checkbox7">React Native</label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Simpan">
+            <input type="button" value="Button" onclick="">
+        </p>
+    </form>
+</body>
+</html>
